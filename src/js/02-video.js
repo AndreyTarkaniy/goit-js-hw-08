@@ -14,8 +14,9 @@ function currentVideoTime (event){
 };
 
 function saveVideoTime(){
-    if(localStorage.getItem(GET_TIME_KEY)){
-        return localStorage.getItem(GET_TIME_KEY);
-    }    
+let saveTime = localStorage.getItem(GET_TIME_KEY)
+
+    if(GET_TIME_KEY){
+        return  saveTime ;        
+    };    
 };
-    
