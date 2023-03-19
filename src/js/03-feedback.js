@@ -1,3 +1,62 @@
+// import   _throttle  from 'lodash.throttle';
+
+
+
+// const refs={
+//     form: document.querySelector("form"),
+//     email: document.querySelector("input"),
+//     textarea: document.querySelector("textarea"),
+// };
+ 
+// refs.form.addEventListener("submit", handleFormSubmit);
+// refs.email.addEventListener("input", handleEmailInput);
+// refs.textarea.addEventListener("input", handleTextareaInput);
+
+// formLoadSave();
+
+// function handleFormSubmit(event) {
+//     event.preventDefault();
+
+//     console.log("Готово!!")
+
+//     event.target.reset();
+//     localStorage.removeItem("feedback-form-state");
+// }
+
+
+// function handleEmailInput(event) {
+//     const valueEmail = event.target.value;
+//     localStorage.setItem("feedback-form-state", valueEmail)
+//     console.log(valueEmail);
+
+//     l
+// };
+
+
+// function handleTextareaInput(event) {
+//     const valueText = event.target.value;
+//     localStorage.setItem("feedback-form-state", valueText);
+
+//     console.log(valueText);
+    
+// };
+
+// function formLoadSave() {
+//     const saveTextForm = localStorage.getItem("feedback-form-state");
+
+//     if(saveTextForm){
+//       refs.email.value = saveTextForm;
+//       refs.textarea.value = saveTextForm;
+//     }
+// }
+
+
+
+
+
+
+
+
 const STORAGE_KEY = 'feedback-form-state';
 const form = document.querySelector('.feedback-form');
 let formData ={};
